@@ -1,0 +1,53 @@
+header {
+
+    background-color: black;
+    
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 30px;
+        font-style: normal;
+
+    }
+     p {
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         font-style: italic;
+         color: red;
+     }
+
+     img {
+         height: 80px;
+         width: 80px;
+         border: 3px solid white;
+         border-radius: 10px;
+     }
+
+
+
+
+
+     @media screen and (min-width: 768px) {
+         
+        h1 {
+            font-size: 40px;
+    
+        }
+         p {
+             font-size: 30px;
+        
+         }
+    
+         img {
+             height: 200px;
+             width: 300px;
+             border-radius: 30px;
+             border-style: double;
+         }
+    
+     }
+
+
+
+
+}
