@@ -1,3 +1,7 @@
+@charset "UTF-8";
+body {
+  background-image: url(/img/descarga.jpg); }
+
 nav img {
   height: 50px;
   width: 5opx;
@@ -5,7 +9,9 @@ nav img {
   border-radius: 20px; }
 
 header {
-  background-color: black; }
+  background-color: black;
+  padding: 10px;
+  margin: 5px; }
   header h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -31,3 +37,66 @@ header {
       width: 300px;
       border-radius: 30px;
       border-style: double; } }
+
+main {
+  font-size: 15px;
+  font-style: italic;
+  font-family: "roboto", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+  color: white; }
+  main iframe {
+    height: 250px;
+    width: 250px;
+    border: 1px double white;
+    border-radius: 20px; }
+  main .textopequeño {
+    font-size: 15px;
+    font-style: oblique; }
+  main .carousel-inner {
+    padding: 15px;
+    margin: 10px; }
+    main .carousel-inner img {
+      height: 350px;
+      width: 250px; }
+  main .card img {
+    height: 100px;
+    width: 200px; }
+  @media screen and (min-width: 768px) {
+    main {
+      font-size: 25px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto; }
+      main iframe {
+        height: 450px;
+        width: 650px;
+        border: 1px double white;
+        border-radius: 20px; }
+      main .w-100 {
+        height: 400px;
+        width: 500px;
+        border: 2px solid white;
+        border-radius: 20px; }
+      main .textopequeño {
+        font-size: 20px; }
+      main .carousel-inner img {
+        height: 600px;
+        width: 500px; } }
+
+footer {
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: 5px; }
+  footer li a {
+    text-decoration: none;
+    color: #4543ec; }
+  footer a:hover {
+    background-color: green; }
