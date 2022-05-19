@@ -32,10 +32,15 @@ main {
     }
 
 
-    .card {
+    div {
+        display: contents;
+        padding: 25px;
+        margin: 15px;
         img {
-            height: 100px;
-            width: 200px;
+            height: 300px;
+            width: 400px;
+            border: 2px solid white;
+            border-radius: 15px;
         }
     }
 
@@ -74,10 +79,19 @@ main {
                 width: 500px;
             }
         }
-    
-    
+
+        div {
+            padding: 35px;
+            img {
+                height: 500px;
+            }
+  
+        }
 
 
-    }
 
-}
+        
+
+    } 
+
+}    

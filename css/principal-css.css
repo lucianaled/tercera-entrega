@@ -61,9 +61,15 @@ main {
     main .carousel-inner img {
       height: 350px;
       width: 250px; }
-  main .card img {
-    height: 100px;
-    width: 200px; }
+  main div {
+    display: contents;
+    padding: 25px;
+    margin: 15px; }
+    main div img {
+      height: 300px;
+      width: 400px;
+      border: 2px solid white;
+      border-radius: 15px; }
   @media screen and (min-width: 768px) {
     main {
       font-size: 25px;
@@ -84,7 +90,11 @@ main {
         font-size: 20px; }
       main .carousel-inner img {
         height: 600px;
-        width: 500px; } }
+        width: 500px; }
+      main div {
+        padding: 35px; }
+        main div img {
+          height: 500px; } }
 
 footer {
   background-color: black;
